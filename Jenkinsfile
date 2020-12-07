@@ -1,10 +1,10 @@
 pipeline {
-    agent master
+    agent { label 'master' }
 
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World'
+                echo 'Hello World
             }
         }
     }
