@@ -1,4 +1,4 @@
---- # this playbook will start with triple dash or location of your playbook
+--- # this playbook will start with triple dash
 
 - hosts: localhost    #can be name of inventory , inventory group , ip directly #this is also start of the play ....hyphen denotes start of the play
   tasks:
