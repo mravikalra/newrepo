@@ -1,4 +1,4 @@
---- # this playbook will start with triple dash
+--- # this playbook will start with triple dash(mkr20)
 
 - hosts: localhost    #can be name of inventory , inventory group , ip directly #this is also start of the play ....hyphen denotes start of the play
   tasks:
