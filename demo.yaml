@@ -2,4 +2,4 @@
 
 - hosts: localhost    #can be name of inventory , inventory group , ip directly #this is also start of the play ....hyphen denotes start of the play
   tasks:
-     - debug: msg="Welcome to playbook this is task1"   #here debug is a module to print message
+     - debug: msg="Welcome to playbook this is task1"  
