@@ -1,6 +1,5 @@
- --- # this playbook will start with triple dash or location of your playbook
+--- # this playbook will start with triple dash or location of your playbook
 
-  - hosts: localhost    #can be name of inventory , inventory group , ip directly #this is also start of the play ....hyphen denotes start of the play
-
-    tasks:
-        - debug: msg="Welcome to playbook this is task1"   #here debug is a module to print message
+- hosts: localhost    #can be name of inventory , inventory group , ip directly #this is also start of the play ....hyphen denotes start of the play
+  tasks:
+     - debug: msg="Welcome to playbook this is task1"   #here debug is a module to print message
